@@ -29,6 +29,11 @@ body {
     padding: 20px 10px;
 }
 
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
 .gallery img {
     width: 100%;
     max-width: 350px;
